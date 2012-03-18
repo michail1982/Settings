@@ -62,7 +62,7 @@ class Settings_Yaml implements iSettings
 	public function add_item($item, $value=NULL , $module = NULL)
 	{
 		$this->_changed = TRUE;
-		$this->_config[$key] = $value;
+		$this->_config[$item] = $value;
 	}
 
 	/* (non-PHPdoc)

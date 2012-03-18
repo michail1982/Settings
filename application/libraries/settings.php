@@ -108,7 +108,7 @@ Class Settings
 
 /**
  * Интерфейс драйвера конфигурации
- * @author Admin
+ * @author Michail1982
  *
  */
 Interface iSettings
