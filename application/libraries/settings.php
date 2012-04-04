@@ -53,7 +53,7 @@ Class Settings
 		}
 
 		//Загрузка настроек модуля или приложения
-		$config = $this->_driver->load($this->_module, TRUE);
+		$config = $this->_driver->load($module, TRUE);
 
 		// Добавление настроек в Config
 		foreach ($config as $item => $value)
